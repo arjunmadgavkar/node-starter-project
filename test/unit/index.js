@@ -1,10 +1,10 @@
-import { SendBlue } from "../../src/sendblue";
+import { FirstClass } from "../../src/firstdir";
 import { expect } from "chai";
 
-describe("SendBlue Tests", function () {
-  describe("new SendBlue()", function () {
-    it("should create new SendBlue object", function () {
-      expect(new SendBlue().sendMessage()).to.equal("hi");
+describe("FirstClass Tests", function () {
+  describe("new FirstClass()", function () {
+    it("should create new FirstClass object", function () {
+      expect(new FirstClass().someFunction()).to.equal("hi");
     });
   });
 });

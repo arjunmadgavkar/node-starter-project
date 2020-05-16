@@ -1,7 +1,7 @@
 {
-  "name": "sendblue-node-helper",
+  "name": "todo",
   "version": "1.0.0",
-  "description": "Node helper lib for SendBlue",
+  "description": "TODO",
   "main": "src/index.js",
   "directories": {
     "test": "test"
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arjunmadgavkar/sendblue-node.git"
+    "url": "TO DO -- (FORMAT SHOULD BE: git+https://github.com/arjunmadgavkar/sendblue-node.git)"
   },
   "keywords": [
-    "sendblue"
+    "TO DO"
   ],
   "author": "Arjun Madgavkar",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arjunmadgavkar/sendblue-node/issues"
+    "url": "TO DO -- https://github.com/arjunmadgavkar/sendblue-node/issues"
   },
-  "homepage": "https://github.com/arjunmadgavkar/sendblue-node#readme",
+  "homepage": "TO DO -- https://github.com/arjunmadgavkar/sendblue-node#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/polyfill": "^7.8.7",
