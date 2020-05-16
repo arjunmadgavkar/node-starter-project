@@ -1,0 +1,41 @@
+{
+  "name": "sendblue-node-helper",
+  "version": "1.0.0",
+  "description": "Node helper lib for SendBlue",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint src test",
+    "prettier": "prettier --write '{src,test}/**/*.js'",
+    "test": "npm run lint && mocha test/unit --require @babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunmadgavkar/sendblue-node.git"
+  },
+  "keywords": [
+    "sendblue"
+  ],
+  "author": "Arjun Madgavkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjunmadgavkar/sendblue-node/issues"
+  },
+  "homepage": "https://github.com/arjunmadgavkar/sendblue-node#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "mocha": "^7.1.2",
+    "prettier": "2.0.5"
+  }
+}
